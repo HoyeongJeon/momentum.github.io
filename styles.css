@@ -34,3 +34,26 @@ body img {
 .hide {
   display: none;
 }
+
+.js-name input {
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 28px;
+}
+
+.js-name input::placeholder {
+  color: whitesmoke;
+}
+
+.js-name input:focus {
+  border-style: none;
+  outline: none;
+}
+
+.js-name button {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: white;
+}
