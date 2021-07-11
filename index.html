@@ -1,0 +1,37 @@
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Momentum</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="js-clock css-clock"></div>
+      <div class="js-name css-name">
+        <form action="">
+          <input type="text" placeholder="What is your name?" />
+          <button>Log In</button>
+        </form>
+      </div>
+      <div class="js-toDos css-toDos">
+        <h3>What is your plan for today?</h3>
+        <form action="">
+          <input type="text" />
+        </form>
+      </div>
+      <div class="js-toDosBox css-toDosBox"></div>
+      <div id="weather">
+        <span id="weather-name"></span>
+        <span id="weather-weather"></span>
+        <span id="weather-temp"></span>
+      </div>
+    </div>
+    <script src="./built/background.js"></script>
+    <script src="./built/clock.js"></script>
+    <script src="./built/name.js"></script>
+    <script src="./built/todos.js"></script>
+    <script src="./built/weather.js"></script>
+  </body>
+</html>

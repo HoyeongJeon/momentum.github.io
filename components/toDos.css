@@ -1,0 +1,31 @@
+.css-toDos {
+  text-align: center;
+  font-size: 36px;
+}
+
+.css-toDos input {
+  border-style: none;
+  border-bottom: 1px solid azure;
+  background-color: inherit;
+  color: azure;
+  font-size: 36px;
+}
+
+.css-toDos input:focus {
+  outline: none;
+}
+
+.css-toDosbox {
+  position: relative;
+}
+
+.css-toDosbox li {
+  padding-top: 10px;
+  font-size: 36px;
+  text-align: none;
+  list-style-type: none;
+}
+
+.css-toDosbox li button {
+  margin-right: 5px;
+}
